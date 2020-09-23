@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>web-design-challenge</title>
+<link rel="stylesheet" type="text/css" href ="style.css">
+</head>
+
+<h1>Comparing the Data</h1>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="navbar-brand" href="style.css"></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="index.html"> <span class="font">Home</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">Visualizations
+              <i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="vis1.html"><input type="image" src="visualizations/latvstemp-scatter.png" width="100"/></a>
+                <a href="vis2.html"><input type="image" src="visualizations/northern_temp_hum.png" width="100"/></a>
+                <a href="vis3.html"><input type="image" src="visualizations/northern_temp_wind.png" width="100"/></a>
+                <a href="vis4.html"><input type="image" src="visualizations/southern_temp_cloud.png" width="100"/></a>
+              </div>
+          </div>
+
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="compare.html"> <span class="font">Comparisons (current)</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="data.html"> <span class="font">Data</span></a>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</br>
+</br>
+</br>
+</br>
+<div class="container-md">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <div class="row">
+  <div class="col-md-6">
+    <h4>Latitude vs. Temperature Scatter Plot</h4>
+    <img alt="Latitude vs. Temperature Scatter Plot" src="visualizations/latvstemp-scatter.png">
+  </div>
+  <div class="col-md-6">
+    <h4>Northern Temperature vs. Humidity</h4>
+    <img alt="Northern Temperature vs. Humidity" src="visualizations/northern_temp_hum.png">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h4>Northern Temperature vs. Windiness</h4>
+    <img alt="Northern Temperature vs. Windiness" src="visualizations\northern_temp_wind.png">
+  </div>
+  <div class="col-md-6">
+    <h4>Southern Temperature vs. Cloudiness</h4>
+    <img alt="Southern Temperature vs. Cloudiness" src="visualizations\southern_temp_cloud.png">
+  </div>
+</div>
+</div>
+
+</body>
+</html>

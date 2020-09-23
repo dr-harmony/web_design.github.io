@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Southern Hemisphere Cloudiness vs. Temperature</title>
+<link rel="stylesheet" type="text/css" href ="style.css">
+</head>
+
+<h1>Southern Hemisphere Cloudiness vs. Temperature</h1>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="style.css"></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="index.html"> <span class="font">Home</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">Visualizations
+              <i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="vis1.html"><input type="image" src="visualizations/latvstemp-scatter.png" width="100"/></a>
+                <a href="vis2.html"><input type="image" src="visualizations/northern_temp_hum.png" width="100"/></a>
+                <a href="vis3.html"><input type="image" src="visualizations/northern_temp_wind.png" width="100"/></a>
+                <a href="vis4.html"><input type="image" src="visualizations/southern_temp_cloud.png" width="100"/>*</a>
+              </div>
+          </div>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="data.html"> <span class="font">Data</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="compare.html"> <span class="font">Comparisons</span></a>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br>
+<br>
+<img src="visualizations/southern_temp_cloud.png" alt="Latitude vs. Temperature Scatter Plot">
+<p>
+  Each dot in the plot represents a city. This plot demonstrates the relationship between cloudiness and latitude in the Southern hemisphere.
+  The linear regression analysis demosntrates that there is no correlation between cloudiness and latitude. 
+  This analysis does not take into account the difference in land mass between Northern and Southern hemispheres as the Northern hemisphere is not included.
+</p>
+</body>
+</html>

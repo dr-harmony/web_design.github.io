@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>web-design-challenge</title>
+<link rel="stylesheet" type="text/css" href ="style.css">
+</head>
+
+<h1>Weather Data</h1>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="style.css"></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="index.html"> <span class="font">Home (current)</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">Visualizations
+              <i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="vis1.html"><input type="image" src="visualizations/latvstemp-scatter.png" width="100"/></a>
+                <a href="vis2.html"><input type="image" src="visualizations/northern_temp_hum.png" width="100"/></a>
+                <a href="vis3.html"><input type="image" src="visualizations/northern_temp_wind.png" width="100"/></a>
+                <a href="vis4.html"><input type="image" src="visualizations/southern_temp_cloud.png" width="100"/></a>
+              </div>
+          </div>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="data.html"> <span class="font">Data</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="compare.html"> <span class="font">Comparisons</span></a>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</body>
+
+<p>
+  The purpose of this project was to compare weather of a list of randomly selected cities around the world.
+  To do this, data from the OpenWeatherMap API was used to assemble a dataset of over 500 cities. Data was then converted to a pandas dataframe for downstream analysis.
+</p>
+<p>
+  After compiling the list of cities and weather data in a pandas dataframe. Matplotlib was used to produce plots comparing different aspects of the dataset (examples available in the "Visualizations" tab) from the raw data (available in the "Data" tab). 
+  In 3 of these plots, linear regression analysis was used to determine if there was a correlation between the parameters plotted.
+  All plots can be visualized at once in the "Comparisons" tab. Descriptions of each graph are available in each graphs respective link.
+</p>
+</html>

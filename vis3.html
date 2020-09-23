@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Northern Hemisphere Windiness vs. Temperature</title>
+<link rel="stylesheet" type="text/css" href ="style.css">
+</head>
+
+<h1>Northern Hemisphere Windiness vs. Temperature</h1>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="style.css"></a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="index.html"> <span class="font">Home</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">Visualizations
+              <i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content">
+                <a href="vis1.html"><input type="image" src="visualizations/latvstemp-scatter.png" width="100"/></a>
+                <a href="vis2.html"><input type="image" src="visualizations/northern_temp_hum.png" width="100"/></a>
+                <a href="vis3.html"><input type="image" src="visualizations/northern_temp_wind.png" width="100"/>*</a>
+                <a href="vis4.html"><input type="image" src="visualizations/southern_temp_cloud.png" width="100"/></a>
+              </div>
+          </div>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="data.html"> <span class="Font">Data</span></a>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class="fa fa-caret-down"></i>
+              <a href="compare.html"> <span class="font">Comparisons</span></a>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br>
+<img src="visualizations/northern_temp_wind.png" alt="Latitude vs. Temperature Scatter Plot">
+<p>
+  Each dot in the plot represents a city. This plot demonstrates the relationship between wind speed and latitude in the Northern hemisphere.
+  The linear regression analysis demosntrates that there is no correlation between wind speed and latitude. 
+  This analysis does not take into account the direction of wind.
+</p>
+</body>
+</html>
